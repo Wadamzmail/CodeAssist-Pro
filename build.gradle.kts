@@ -65,8 +65,8 @@ tasks.register<Delete>("clean") {
 }
 
 extra.apply {
-    set("compileSdkVersion", 36)
-    set("buildToolsVersion", "36.1.0")
+    set("compileSdkVersion", 37)
+    set("buildToolsVersion", "37.0.0")
     set("targetSdkVersion", 36)
     set("minSdkVersion", 26)
     set("applicationId", "dev.mutwakil.codeassist")
